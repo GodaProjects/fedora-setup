@@ -222,3 +222,5 @@ read -p "Install RPM fusion repo - both free and non free"
 echo "Make alt+tab show windows only from current workspace"
 gsettings set org.gnome.shell.app-switcher current-workspace-only true
 
+echo "Install GS Connect..."
+sudo dnf install gnome-shell-extension-gsconnect
